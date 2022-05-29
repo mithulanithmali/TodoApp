@@ -1,0 +1,25 @@
+<div  fxLayout="row" fxFlexFill fxLayout.lt-sm="column" >
+    <form  [formGroup]="viewTodoList">
+    <mat-form-field fxFlex color="outline" appearance="outline" style="margin-bottom: 20px;">
+        <mat-label>Id</mat-label>
+        <input matInput type="text"   formControlName="id">
+    </mat-form-field>
+    <mat-form-field fxFlex color="outline" appearance="outline" style="margin-bottom: 20px;">
+        <mat-label>User Id</mat-label>
+        <input matInput type="text"   formControlName="userId">
+    </mat-form-field>
+    <mat-form-field fxFlex color="outline" appearance="outline" style="margin-bottom: 20px;">
+        <mat-label>Title</mat-label>
+        <input matInput type="text"  formControlName="title">
+    </mat-form-field>
+    <mat-form-field fxFlex color="outline" appearance="outline" style="margin-bottom: 20px;">
+        <mat-label>Completed</mat-label>
+        <input matInput type="text"   formControlName="completed">
+    </mat-form-field>
+    <div mat-dialog-actions style="justify-content: flex-end">
+        <button  mat-raised-button (click)="closeDialogBox()" color="primary">
+          OK
+        </button>
+      </div>
+    </form>
+</div>

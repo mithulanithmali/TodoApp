@@ -1,0 +1,19 @@
+mat-card {
+  width: 400px;
+  margin: 2em auto;
+  text-align: center;
+}
+
+mat-form-field {
+  display: block;
+}
+
+.main-div{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://thumbs.dreamstime.com/z/abstract-blue-backgrounds-vector-technology-futuristic-hexagon-flat-design-website-background-internet-banner-landing-page-96531850.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
